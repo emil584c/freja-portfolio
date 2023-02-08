@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.bg-white{background-color: #FAFAF8;}
+.bg-blue{background-color: #ABD3E0;}
+
+header,nav{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}   
+
+nav{
+
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+}
