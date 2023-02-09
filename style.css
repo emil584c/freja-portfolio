@@ -7,10 +7,22 @@
 
 .bg-white{background-color: #FAFAF8;}
 .bg-blue{background-color: #ABD3E0;}
+.text-orange{color: #EB986E;}
+.text-black{color: #133057;}
+
+
+p{
+    max-width: 500px;
+}
+
+h1{
+
+}
 
 
 .system{
     display: flex;
+    flex-direction: column;
 }
 
 main{
@@ -21,21 +33,7 @@ main{
     padding: 2rem;
 }
 
-header{
-    width: 224px;
-    height: 100vh;
-}  
 
-nav{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    width: 190px;
-    align-items:center;
-    top: 4rem;
-    height: 600px;
-    
-}
 
 li{
     list-style: none;
@@ -48,7 +46,7 @@ body{
 
 .hero-section{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .image-test{
@@ -57,11 +55,37 @@ body{
     background-color: black;
 }
 
-p{
-    max-width: 500px;
-}
-
 .link-buttons{
     display: flex;
     flex-direction: row;
+}
+
+.hamburger-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.hamburger-line{
+    width: 10px;
+    height: 2px;
+    background-color: #133057;
+}
+
+
+@media screen and (min-width: 1024px){
+    header{
+        width: 224px;
+        height: 100vh;
+    }  
+    
+    nav{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 190px;
+        align-items:center;
+        top: 4rem;
+        height: 600px;
+    }
 }
