@@ -11,9 +11,7 @@
 .text-black{color: #133057;}
 
 
-.nav-toggle {
-    
-  }
+
   
   .nav-toggle .bar {
     transition: all 100ms ease-in-out;
@@ -77,15 +75,33 @@ nav{
     padding-top: 2rem;
 }
 
+.project-list{
+
+    flex-direction: column;
+    text-align: center;
+    display: none;
+}
+
+.project-list-item{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "futura-pt", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #133057;
+    cursor: pointer;
+}
+
 .download{
     background-color: #04315A;
-    margin-top: 280px;
+    margin: 280px auto 0 auto;
     padding: 8px 40px;
     font-family: "futura-pt", sans-serif;
     font-size: 20px;
     color: #FAFAF8;
     font-weight: 400;
     border: 0;
+    width: fit-content;
 }
 
 h1{
@@ -267,6 +283,14 @@ body{
     display: none;
 }
 
+a{
+    text-decoration: none;
+}
+
+.individual-section{
+    padding-top: 6rem;
+}
+
 
 @media screen and (min-width: 1160px){
 
@@ -297,13 +321,35 @@ body{
         left: 0;
     }
 
+    .project-list{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 30px;
+    }
     
+    .project-list-item{
+        font-size: 18px;
+        font-weight: 300;
+        font-family: "futura-pt", sans-serif;
+        text-decoration: none;
+        list-style: none;
+        color: #133057;
+        cursor: pointer;
+    }
+
+
+
+    .heading{
+        margin: 0;
+    }
 
     .hamburger{
         display: none;
     }
 
     .nav__link{
+        text-align: left;
         position: fixed;
         height: 100%;
         display: flex;
@@ -312,12 +358,17 @@ body{
         width: 224px;
     }
 
+    li{
+        width: fit-content;
+        margin-left: 30px;
+    }
+
     .logo-big{
             display: block;
             font-family: "futura-pt", sans-serif;
             font-size: 30px;
             font-weight: 500;
-            margin: auto;
+            margin-left: 30px;
             width: fit-content;
             margin-bottom: 20px;
             margin-top: 20px;
@@ -333,14 +384,12 @@ body{
     .project-section{
         flex-direction: row;
         margin: auto;
-        max-width: 1100px;
-        padding: 50px;
+        max-width: 955px;
         gap: 32px;
     }
 
     .heading{
-        max-width: 1100px;
-        padding: 50px;
+        max-width: 955px;
         margin: auto;
     }
 
