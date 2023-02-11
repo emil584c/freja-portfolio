@@ -6,29 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vcv8czx.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/1e8b3aab75.js" crossorigin="anonymous"></script>
 </head>
 <body class="system">
 
-    <header class="bg-blue">
+    <header>
         <nav>
-            <p>logo</p>
+            <p class="logo">Christlieb Creative</p>
 
-            <div class="hamburger-menu">
-                <div class="hamburger-line"></div>
-                <div class="hamburger-line"></div>
-                <div class="hamburger-line"></div>
+            <div class="hamburger nav-toggle" id="hamburger">
+                <div class="hamburger-line bar"></div>
+                <div class="hamburger-line bar"></div>
+                <div class="hamburger-line bar"></div>
             </div>
 
-            <ul class="nav__link">
+            <ul class="nav__link hide">
+                <p class="logo-big">Christlieb Creative</p>
                 <li><a href=""></a>Om mig</li>
                 <li><a href=""></a>Projekter</li>
                 <li><a href=""></a>Kontakt mig</li>
                 <div class="second-part-nav">
-                    <button>Hent CV</button>
+
+                    <button class="download">Hent CV</button>
                     <div class="link-buttons">
-                        <div>knap</div>
-                        <div>knap</div>
-                        <div>knap</div>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-solid fa-globe"></i>
+                        <i class="fa-brands fa-linkedin"></i>
                     </div>
                 </div>
             </ul>
@@ -41,12 +46,136 @@
     <main class="bg-white main-section">
 
         <section>
-            <div class="hero-section">
+            <div class="hero-section max-width-section">
+                <img class="hero-picture" src="images/hero-picture.jpg" alt="Billede af Freja Christlieb">
                 <div class="hero-text-section">
-                    <h1></h1>
-                    <p class="hero-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus maxime ea deserunt quas facere veritatis temporibus perferendis perspiciatis pariatur aperiam excepturi officia rem, harum aliquam deleniti minus beatae ipsa neque. Eveniet, ab! Debitis minus labore, tenetur deserunt omnis eum? Rem!</p>
+                    <h4>VISUEL FORTÆLLER</h4>
+                    <h1>Kreativ multimediedesigner med flair for fotografering</h1>
+                    <p class="hero-text">Jeg hedder Freja og er en 23-årig multimediedesign-studerende. Jeg har altid været fascineret af det visuelle og har stor passion for at fange smukke, stemningsfyldte motiver med et kamera. Det har der været rig mulighed for i den smukke natur på Ærø, hvor jeg er opvokset.  <br> <br>Herunder findes udvalgte projekter, som jeg håber, du har lyst til at kigge nærmere på. </p>
                 </div>
-                <div class="image-test"></div>
+            </div>
+        </section>
+
+        <section>
+            <div class="heading">
+                <h4>UDVALGTE</h4>
+                <h2>Projekter</h2>
+            </div>
+            <div class="project-section">
+
+                <div class="project-row">
+                    <article class="project-box">
+                        <img src="images/projectexample.jpg" alt="" class="project-box-picture">
+                        <div>
+                            <p class="project-name">DGK CAFÉ & BUTIK</p>
+                            <p class="project-subject">FOTO</p>
+                        </div>
+                    </article>
+
+                    <article class="project-box">
+                        <img src="images/projectexample.jpg" alt="" class="project-box-picture">
+                        <div>
+                            <p class="project-name">VISIT ÆRØ</p>
+                            <p class="project-subject">FOTO</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="project-row">
+                    <article class="project-box">
+                        <img src="images/projectexample.jpg" alt="" class="project-box-picture">
+                        <div>
+                            <p class="project-name">INSTAGRAM REELS</p>
+                            <p class="project-subject">VIDEO</p>
+                        </div>
+                    </article>
+
+                    <article class="project-box">
+                        <img src="images/projectexample.jpg" alt="" class="project-box-picture">
+                        <div>
+                            <p class="project-name">MARIE SCHWAB</p>
+                            <p class="project-subject">FOTO</p>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+
+            <div class="project-section">
+
+                <div class="project-row">
+                    <article class="project-box">
+                        <img src="images/projectexample.jpg" alt="" class="project-box-picture">
+                        <div>
+                            <p class="project-name">ÆRØ SOAP</p>
+                            <p class="project-subject">FOTO</p>
+                        </div>
+                    </article>
+
+                    <article class="project-box">
+                        <img src="images/projectexample.jpg" alt="" class="project-box-picture">
+                        <div>
+                            <p class="project-name">ÆRØ BRYGGERI</p>
+                            <p class="project-subject">FOTO</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="project-row">
+                    <article class="project-box">
+                        <img src="images/projectexample.jpg" alt="" class="project-box-picture">
+                        <div>
+                            <p class="project-name">RIKKE STOKLAND</p>
+                            <p class="project-subject">VIDEO</p>
+                        </div>
+                    </article>
+
+                    <article class="project-box">
+                        <img src="images/projectexample.jpg" alt="" class="project-box-picture">
+                        <div>
+                            <p class="project-name">BRYLLUP</p>
+                            <p class="project-subject">FOTO</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="max-width-section experince-text-section">
+                <img class="frontpage-picture1" src="images/frontpage-1.jpg" alt="Billede af Ærø">
+                <div class="hero-text-section">
+                    <div>
+                        <h4>ERFARING FRA</h4>
+                        <h2>Egen virksomhed</h2>
+                    </div>
+                    <div class="text-section">
+                        <p>Ved siden af arbejde og studie, har jeg de sidste tre år haft fornøjelsen af at hjælpe flere ærøske virksomheder med alt fra produkt- til brandingfotografering.</p>
+                        <p>Jeg driver derudover min webshop koloro.dk, hvor jeg sælger kvalitets-plakater med mine ærøske motiver. Arbejdet med webshoppen har givet mig god erfaring med e-handel og opsætning i Shopify.</p>
+                        <p>På min instagram @frejasfotografi deler jeg stemningsfyldte billeder fra øen. Herfra har jeg en god forståelse af, hvad det vil sige at drive en social medie profil professionelt.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="max-width-section experince-text-section">
+                <img class="frontpage-picture2" src="images/frontpage-2.jpg" alt="Billede af Ærø">
+                <div class="hero-text-section">
+                    <div>
+                        <h4>INTERESSERET?</h4>
+                        <h2>Kontakt mig</h2>
+                    </div>
+                    <div class="text-section">
+                        <p>Er du interesseret i at have mig som praktikant i din virksomhed til efteråret, vil jeg hjertens gerne høre fra dig. Fortæl gerne lidt om virksomheden og hvilken slags opgaver, jeg ville kunne hjælpe med at løse. </p>
+                        <div>
+                            <p>Freja Kock Christlieb</p>
+                            <p>freja@koloro.dk</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="frontpage-picture3" src="images/frontpage-2.jpg" alt="Billede af Ærø">
             </div>
         </section>
         
