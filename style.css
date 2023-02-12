@@ -174,6 +174,7 @@ li{
     list-style: none;
     text-decoration: none;
     margin-top: 18px;
+    cursor: pointer;
 }
 
 body{
@@ -291,6 +292,9 @@ a{
     font-weight: 400;
     font-family: "futura-pt", sans-serif;
     color: #133057;
+    width: fit-content;
+    cursor: pointer;
+    
 }
 
 .individual-section{
@@ -298,7 +302,7 @@ a{
 }
 
 .long-image{
-    max-height: 210px;
+    max-height: 100%;
     object-fit: cover;
     object-position: center;
 }
@@ -347,7 +351,64 @@ a{
     margin-top: 150px;
 }
 
+.underline {
+    text-decoration: none; 
+    position: relative; 
+  }   
+
+  .underline:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+      /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+    bottom: -1px; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 40%;
+    background: #133057;
+}   
+
+.underline2 {
+    text-decoration: none; 
+    position: relative; 
+  }   
+
+  .underline2:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -1px; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 40%;
+    background: #133057;
+}   
+
+
 @media screen and (min-width: 1160px){
+
+
+    .underline:after{
+        width: 100%;
+       
+    }
+
+  .underline2:after{
+    width: 0%;
+
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+   
+}
+
+.underline2:hover:after {
+    width: 100%;
+}
 
     .instagram-container{
         max-width: 1100px;
