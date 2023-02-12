@@ -94,7 +94,7 @@ nav{
 
 .download{
     background-color: #04315A;
-    margin: 280px auto 0 auto;
+    margin: 280px 35px 0;
     padding: 8px 40px;
     font-family: "futura-pt", sans-serif;
     font-size: 20px;
@@ -134,7 +134,7 @@ h4{
 }
 
 section{
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 main{
@@ -167,6 +167,7 @@ main{
     max-width: 330px;
     max-height: 237px;
     object-fit: cover;
+    margin-bottom: 15px;
 }
 
 li{
@@ -285,14 +286,96 @@ body{
 
 a{
     text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "futura-pt", sans-serif;
+    color: #133057;
 }
 
 .individual-section{
     padding-top: 6rem;
 }
 
+.long-image{
+    max-height: 210px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.short-image{
+    max-height: 237.6px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-side-container {
+    max-width: 95%;
+    margin: 20px auto;
+    background-color: var(--clr-neutral-100);
+}
+
+.image-side-container .image-container {
+    columns: 3 250px;
+    gap: 15px;
+}
+
+.image-side-container .image-container img {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.instagram-container{
+    max-width: 332px;
+    margin: auto;
+}
+
+.arrow{
+    font-size: 16px;
+    height: fit-content;
+    margin-top: 4px;
+}
+
+.project-arrow-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.download-project{
+    margin-top: 150px;
+}
 
 @media screen and (min-width: 1160px){
+
+    .instagram-container{
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .instagram-post{
+        max-width: 553px;
+        max-height: 565px;
+        overflow: hidden;
+    }
+    
+
+    .image-side-container {
+        max-width: 1200px;
+        margin: 20px auto;
+    }
+
+    .long-image{
+        max-height: 500.25px;
+    }
+    
+    .short-image{
+        max-height: 230px;
+    }
 
     main{
         padding-top: 20px;
@@ -427,7 +510,8 @@ a{
     }
 
     .frontpage-picture2{
-        display: none;
+        height: 450px;
+        margin: 0;
     }
     .frontpage-picture3{
         max-width: 360px;
@@ -453,6 +537,7 @@ a{
 
     p{
         font-size: 20px;
+        max-width: 450px;
     }
     
     h1{
@@ -465,6 +550,23 @@ a{
     
     h4{
         font-size: 20px;
+    }
+
+    .experince-text-section2{
+       flex-flow: row-reverse;
+       justify-content: space-between;
+    }
+
+    .heading-big{
+        margin: 0;
+    }
+
+    .project-text{
+        max-width: 600px;
+    }
+
+    .download-project{
+        margin-top: 100px;
     }
 
 }
