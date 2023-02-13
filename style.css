@@ -439,7 +439,8 @@ a{
     }
 
     main{
-        padding-top: 20px;
+        padding-top: 20px 64px;
+        
     }
 
     header{
@@ -552,7 +553,7 @@ a{
     }
 
     .max-width-section{
-        max-width: 1100px;
+        max-width: 1250px;
         padding: 50px;
     }
     
