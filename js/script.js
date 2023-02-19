@@ -2,10 +2,14 @@
 const hamburger = document.getElementById('hamburger');
 const navLink = document.querySelector('.nav__link');
 
-hamburger.addEventListener('click', () => {
-  navLink.classList.toggle('hide');
-});
 
+function toggleMenu(){
+  navLink.classList.toggle('hide');
+  }
+
+
+
+hamburger.addEventListener('click', toggleMenu);
 
 
 let navToggle = document.querySelector('.nav-toggle')
@@ -16,6 +20,15 @@ function toggleHamburger(e) {
 }
 
 navToggle.addEventListener('click', toggleHamburger);
+
+
+const menuItems = document.querySelectorAll(".menuItem");
+
+menuItems.forEach( 
+  function(menuItem) { 
+    menuItem.addEventListener("click", toggleMenu);
+  }
+)
 
 
 
@@ -29,6 +42,15 @@ projectButton.addEventListener('click', function handleClick() {
         projects.display ="none";
     }
 })
+
+
+
+
+
+
+
+
+
 
 
 
