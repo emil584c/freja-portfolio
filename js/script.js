@@ -38,8 +38,6 @@ const projects = document.getElementById('project-list')
 projectButton.addEventListener('click', function handleClick() {
     if (projects.style.display = "none"){
         projects.style.display = "flex";
-    }else {
-        projects.display ="none";
     }
 })
 
