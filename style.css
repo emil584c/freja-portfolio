@@ -131,6 +131,7 @@ h4{
     color: #EB986E;
     font-size: 15px;
     font-weight: 700;
+    margin-bottom: 4px;
 }
 
 .system{
@@ -287,6 +288,8 @@ body{
 .heading{
     max-width: 334px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-big{
@@ -401,7 +404,7 @@ article{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         max-width: 1200px;
         margin: auto;
-        padding: 50px;
+        padding: 0 50px;
         column-gap: 80px;
     }
 
