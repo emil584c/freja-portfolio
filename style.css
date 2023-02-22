@@ -521,12 +521,6 @@ article{
         margin: 0;
     }
 
-
-
-    .heading{
-        margin: 0;
-    }
-
     .hamburger{
         display: none;
     }
@@ -668,11 +662,22 @@ article{
         margin-top: 80px;
     }
 
+    #project-heading{
+        margin: 0px auto;
+        padding: 0 0 0 50px;
+    }
+    
 }
 
 
 
 @media screen and (min-width: 1650px){
+    p{
+        max-width: 550px;
+    }
+}
+
+@media screen and (min-width: 1350px){
     p{
         max-width: 550px;
     }
