@@ -99,14 +99,23 @@ nav{
 
 .download{
     background-color: #04315A;
-    margin: 280px 35px 0;
-    padding: 8px 40px;
+    margin: 280px 0px 0;
+    padding: 8px 20px;
     font-family: "futura-pt", sans-serif;
     font-size: 20px;
     color: #FAFAF8;
     font-weight: 400;
     border: 0;
     width: fit-content;
+    position: absolute;
+    top: 100px;
+    top: 30%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 127px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
@@ -214,6 +223,10 @@ body{
     margin: auto;
     width: fit-content;
     padding-top: 35px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 550px;
 }
 
 .hamburger{
@@ -255,6 +268,7 @@ body{
     max-width: 157px;
     max-height: 157px;
     object-fit: cover;
+    transition: 1s;
 }
 
 .project-name{
@@ -401,8 +415,31 @@ article{
     margin: 0;
 }
 
+.project-box-picture:hover{
+    scale: 1.15;
+}
+
+.project-hover{
+    width: 157px;
+    height: 157px;
+    overflow: hidden;
+}
+
 
 @media screen and (min-width: 1160px){
+
+    .link-buttons{
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 550px;
+    }
+
+    .project-hover{
+        width: 215px;
+        height: 215px;
+        overflow: hidden;
+    }
+    
 
     .project-section-grid{
         display: grid;
@@ -668,7 +705,10 @@ article{
     }
 
     .download{
-        margin-top: 220px;
+        position: absolute;
+        top: 230px;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .download-project{
