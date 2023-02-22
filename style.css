@@ -378,7 +378,8 @@ a{
 }
 
 .download-project{
-    margin-top: 150px;
+    position: absolute;
+
 }
 
 .underline {
@@ -716,7 +717,7 @@ article{
     }
 
     .download-project{
-        margin-top: 80px;
+        top: 330px;
     }
 
     #project-heading{
