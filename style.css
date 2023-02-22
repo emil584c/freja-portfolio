@@ -169,8 +169,8 @@ main{
 
 .frontpage-picture2{
     margin: auto;
-    max-width: 330px;
-    max-height: 237px;
+    max-width: 460px;
+    max-height: 360px;
     object-fit: cover;
     margin-bottom: 15px;
 }
@@ -299,7 +299,7 @@ body{
 a{
     text-decoration: none;
     list-style: none;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 400;
     font-family: "futura-pt", sans-serif;
     color: #133057;
@@ -521,6 +521,12 @@ article{
         margin: 0;
     }
 
+
+
+    .heading{
+        margin: 0;
+    }
+
     .hamburger{
         display: none;
     }
@@ -671,12 +677,6 @@ article{
 
 
 
-@media screen and (min-width: 1650px){
-    p{
-        max-width: 550px;
-    }
-}
-
 @media screen and (min-width: 1350px){
     p{
         max-width: 550px;
@@ -689,4 +689,5 @@ article{
     .project-section-grid{
         column-gap: 10px;
     }
+    
 }
