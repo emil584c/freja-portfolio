@@ -45,6 +45,14 @@ p{
     color: #133057;
 }
 
+.links {
+    max-width: 430px;
+    font-size: 15px;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 500;
+    color: #133057;
+}
+
 .logo{
     font-family: "futura-pt", sans-serif;
     font-size: 30px;
@@ -683,7 +691,15 @@ article{
         font-size: 20px;
         max-width: 450px;
     }
-    
+
+    .links {
+        max-width: 450px;
+        font-size: 20px;
+        font-family: "futura-pt", sans-serif;
+        font-weight: 500;
+        color: #133057;
+    }
+
     h1{
         font-size: 35px;
 
@@ -743,3 +759,5 @@ article{
     }
     
 }
+
+
