@@ -83,6 +83,7 @@ nav{
     font-family: "futura-pt", sans-serif;
     color: #133057;
     padding-top: 2rem;
+    z-index: 999;
 }
 
 .project-list{
@@ -332,7 +333,17 @@ a{
     color: #133057;
     width: fit-content;
     cursor: pointer;
-    
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "futura-pt", sans-serif;
+    color: #133057;
+    width: fit-content;
+    cursor: pointer;
 }
 
 .individual-section{
