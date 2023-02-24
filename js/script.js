@@ -1,10 +1,13 @@
 
 const hamburger = document.getElementById('hamburger');
 const navLink = document.querySelector('.nav__link');
+const logo = document.getElementById('logo')
 
 
 function toggleMenu(){
   navLink.classList.toggle('hide');
+  hamburger.classList.toggle('stick')
+  logo.classList.toggle('stick2')
   }
 
 
